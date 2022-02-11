@@ -1,0 +1,159 @@
+:root {
+  --main-color: rgba(33, 33, 33, 1);
+  --secondary-color: rgba(255, 255, 255, 1);
+  --main-background-color: #e5e5e5;
+  --hover-logo-btn-color: rgba(33, 150, 243, 1);
+  --maint-text-color: rgba(117, 117, 117, 1);
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: var(--secondary-color));
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* LOGO */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.web{
+  color: var(--hover-logo-btn-color);
+
+}
+.log-sec{
+  color: var(--secondary-color);
+}
+/* header */
+.link {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--main-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--hover-logo-btn-color);
+}
+
+.con {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--maint-text-color);
+}
+/* Main section */
+.main-section{
+  background-color: var(--main-color);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.main-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  cursor: pointer;
+  background-color: var(--hover-logo-btn-color);
+}
+.main-button :hover :focus {
+  color: var(--hover-logo-btn-color);
+}
+/* Наши преимущества */
+.adva-title {
+  font-weight: bold;
+  line-height: 1.14;
+}
+.adva-text {
+  line-height: 1.71;
+  color: var(--maint-text-color);
+}
+.services {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+/* Team */
+.team-section{
+  background-color: var(--main-background-color);
+}
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16px;
+}
+.people-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.people-skil {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--maint-text-color);
+}
+/* Футер */
+.footer{
+  background-color: var(--main-color);
+}
+.address {
+  font-style: normal;
+}
+.address-street {
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+.address-con {
+  line-height: 1.71;
+}
+/* кнопки портфолио */
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--secondary-color);
+  background-color: var(--hover-logo-btn-color);
+}
+.button:focus {
+  color: var(--hover-logo-btn-color);
+}
+/* контент портфолио */
+.main-portfilio{
+  background-color: var(--main-background-color);
+}
+
+.content-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.content-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--maint-text-color);
+}
+.content-item a {
+  text-decoration: none;
+}
