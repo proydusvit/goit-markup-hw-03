@@ -20,10 +20,10 @@ h2,
 h3,
 p,
 ul{
-margin: 0%;
-padding: 0%;
+margin: 0;
+padding: 0;
 }
-section{
+.section{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -66,7 +66,7 @@ li {
   display: flex;
   margin-right: 93px;
   padding-top: 24px;
-  padding-bottom: 25px;
+  
    
 }
 
@@ -142,8 +142,7 @@ li {
    text-align: center;
 }
 .main-title {
- width: 696px;
- height: 120px;
+ 
  margin-left: auto;
  margin-right: auto;
   margin-bottom: 30px; 
@@ -248,15 +247,13 @@ li {
 }
 .team {
     
-  width: 264px;
-  height: 42px;
-  margin-right: auto;
-  margin-left: auto;
+
+  text-align: center;
   margin-bottom: 50px;
  
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.166px;
+  line-height: 1.166;
 }
 .people-list{
   display: flex;
@@ -266,6 +263,7 @@ li {
 margin-right: 30px;
 }
 .people-title {
+  
  margin-bottom: 10px;
  
   font-weight: 500;
@@ -293,8 +291,6 @@ margin-right: 30px;
 /* Футер */
 
 .log-sec{
-  width: 145px;
-  height: 31px;
   
 
   color: var(--secondary-color);
@@ -309,9 +305,9 @@ margin-right: 30px;
   font-style: normal;
 }
 .address-street {
-  width: 231px;
+  
   margin-top: 20px;
-  ;
+  
   line-height: 1.71;
   color: var(--secondary-color);
 }
@@ -400,7 +396,7 @@ padding-left: 24px;
   
 }
 .content-item{
-  width: 370px;
+  
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeee ;
