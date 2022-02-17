@@ -5,47 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="./https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+   
     <!-- Хедер -->
     <header class="header">
+     <div class="container container-header">
+        
         <nav class="nav">
           
-         <a  class="logo" href="">
+         <a  class="logo logo-first" href="">
            <span class="web">Web</span>Studio
           </a>
 
          <ul class="nav-list">
-            <li><a class="link" href="./index.html">Студия</a></li>
-            <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link" href="">Контакты</a></li>
+            <li class="nav-item"><a class="link" href="./index.html">Студия</a></li>
+            <li class="nav-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+            <li class="nav-item"><a class="link" href="">Контакты</a></li>
           
          </ul>
        </nav>
           <ul class="site-connection">
-            <li><a class="con link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="con link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="nav-item"><a class="con link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="nav-item"><a class="con link" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
-   
+      
+    </div>
     </header>
 
     
      <main class="main">
-<!-- Мейн секция -->        
+<!-- Мейн секция -->  
+        
         <section class="main-section">
+     <div class="container">
             <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
             <button class="main-button" type="button">Заказать услугу</button>
-
+         </div>
 
         </section>
+        
 <!-- секция примущества -->
-        <section>
-            <!-- секция примущества -->
+        <section class="adva-section">
+            <div class="container">
             <h2 hidden>Наши преимущества</h2>
             <ul class="adva-list">
                
@@ -69,9 +78,11 @@
                    <p class="adva-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
      </section>
  <!--чем мы заниаемся  -->
       <section class="services-section">
+        <div class="container">
             <h2 class="services">Чем мы занимаемся</h2>
             <ul class="services-list">
                 <li class="services-item">
@@ -86,10 +97,11 @@
 
              
             </ul>
-
+</div>
         </section>
 <!-- наша команда -->
         <section class="team-section">
+            <div class="container">
             <h2 class="team">Наша команда</h2>
             <ul class="people-list">
                 <li class="people-item">
@@ -99,7 +111,7 @@
                 </li>
                 <li class="people-item">
                     <img class="people-img" src="./images/pages1/face2.jpg" alt="girl" width="270">
-                    <h3 class="people-title">Ольга Репина/</h3>
+                    <h3 class="people-title">Ольга Репина</h3>
                     <p class="people-skil">Frontend Developer</p>
 
                 </li>
@@ -108,17 +120,19 @@
                     <h3 class="people-title">Николай Тарасов</h3>
                     <p class="people-skil">Marketing</p>
                 </li>
-                <li class="people_item">
+                <li class="people-item">
                     <img class="people-img" src="./images/pages1/face4.jpg" alt="face_michail" width="270">
                     <h3 class="people-title">Михаил Ермаков</h3>
                     <p class="people-skil">UI Designer</p>
                 </li>
 
             </ul>
+            </div>
         </section>
       </main>
   <!--футер  -->
     <footer class="footer">
+        <div class="container">
         <a class="logo log-sec" href="">
         <span class="web">Web</span>Studio
         </a>
@@ -138,10 +152,11 @@
                 </li>
             </ul>
 
-
+    </div>
         </address>
 
     </footer>
+   
 </body>
 
 </html>
