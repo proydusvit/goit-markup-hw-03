@@ -399,10 +399,11 @@ padding-left: 24px;
   
 }
 .content-item{
+  background-color: #eeee;
   
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeee ;
+  border: 1px solid rgba(238, 238, 238, 1);
 
 }
 .content-item:nth-child(3n){
