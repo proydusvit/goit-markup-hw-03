@@ -234,13 +234,9 @@ padding-bottom: 200px;
 .services {
  
    margin-bottom: 50px;
-   width: 376px;
-   height: 42px;
-  margin-left: auto;
-  margin-right: auto;
+   
+text-align: center;
   
-
-
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -251,11 +247,9 @@ padding-bottom: 200px;
 .services-item{
   margin-right: 30px;
  }
- .services-item :last-child{
-  margin: 0%;
-}
+
 .services-item:last-child{
-  margin: 0%;
+  margin: 0;
 }
 .services-img{
   
@@ -284,8 +278,8 @@ padding-bottom: 200px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   
-  background-color: #eeee;
-margin-right: 30px;
+  background-color:var(--secondary-color);
+ margin-right:30px;
 
 }
 .people-item:last-child{
@@ -304,7 +298,7 @@ margin-right: 30px;
 }
 .people-skil {
   text-align: center;
- padding-bottom:30px ;
+ margin-bottom:30px ;
  
 
   font-size: 16px;
@@ -323,22 +317,24 @@ margin-right: 30px;
 /* Футер */
 
 .log-sec{
-
+  margin-bottom: 20px;
+  display: block;
 
   color: var(--secondary-color);
 }
 
 .footer{
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-futter-and-main);
-  display: block;
+
 }
 .address {
   font-style: normal;
 }
 .address-street {
   margin-bottom: 9px;
-  margin-top: 20px;
+  
   line-height: 1.71;
   color: var(--secondary-color);
 }
@@ -347,7 +343,7 @@ margin-right: 30px;
  
 }
 .address-list{
-  padding-bottom: 60px;
+ 
 }
 .address-con {
   
